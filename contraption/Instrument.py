@@ -12,6 +12,10 @@ class Instrument:
         self.measurements=[]
         self.history=[]
 
+    def query(self,string):
+        return self.inst.query(string)
+    def write(self,string):
+        return self.inst.write(string)
     #Converts a list of [{'chan1': 22, 'chan2': 43},{'chan1': 232, 'chan2': 433}]
     #To {'chan1': [22,232], 'chan2': [43,433]}
     def getRecord(self):
