@@ -1,7 +1,6 @@
 import time, visa
 from .Instrument import Instrument
 import statistics as stats
-#_rm=visa.ResourceManager()
 class Agilent4156(object):
 
     def __init__(self, gpib=2):
