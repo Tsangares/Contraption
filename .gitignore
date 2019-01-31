@@ -1,0 +1,7 @@
+*~
+*.pyc
+#*#
+env
+contraption.egg-info
+dist
+__pycache__
