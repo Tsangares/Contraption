@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="contraption",
-    version="0.0.2",
+    version="0.0.5",
     author="William Wyatt",
     author_email="wwyatt@ucsc.edu",
     description="pyvisa support for powersupplies DPO and DAQs (Aglient, Keithley, Tektronix, Lecroy)",
